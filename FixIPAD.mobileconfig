@@ -30,13 +30,14 @@
             <string>22222222-3333-4444-5555-666666666666</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
-            <!-- Tắt Siri -->
+            
+            <!-- Restrictions: Phần giới hạn hiển thị trong chi tiết -->
             <key>allowSiri</key><false/>
-            <!-- Tắt tự động tải về ứng dụng -->
-            <!-- Tắt tự động cập nhật phần mềm -->
-            <key>allowAutomaticSoftwareUpdates</key><false/>
-            <!-- Hạn chế Handoff -->
             <key>allowHandoff</key><false/>
+            <key>allowLocationServices</key><false/>
+            <key>allowAirdrop</key><false/>
+            <key>allowAutomaticAppDownloads</key><false/>
+            <key>allowAutomaticSoftwareUpdates</key><false/>
         </dict>
     </array>
 </dict>
