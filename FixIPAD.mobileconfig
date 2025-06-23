@@ -33,7 +33,6 @@
             <!-- Tắt Siri -->
             <key>allowSiri</key><false/>
             <!-- Tắt tự động tải về ứng dụng -->
-            <key>allowAutomaticAppDownloads</key><false/>
             <!-- Tắt tự động cập nhật phần mềm -->
             <key>allowAutomaticSoftwareUpdates</key><false/>
             <!-- Hạn chế Handoff -->
