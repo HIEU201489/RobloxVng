@@ -1,48 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
-"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
+<!DOCTYPE plist PUBLIC '-//Apple//DTD PLIST 1.0//EN' 'http://www.apple.com/DTDs/PropertyList-1.0.dtd'>
+<plist version='1.0'>
 <dict>
-  <key>PayloadContent</key>
-  <array>
-    <!-- Restrictions Payload -->
-    <dict>
-      <key>PayloadType</key>
-      <string>com.apple.applicationaccess</string>
-      <key>PayloadVersion</key>
-      <integer>1</integer>
-      <key>PayloadIdentifier</key>
-      <string>com.example.powersave</string>
-      <key>PayloadUUID</key>
-      <string>11111111-2222-3333-4444-555555555555</string>
-      <key>PayloadDisplayName</key>
-      <string>Power Save Restrictions</string>
-
-      <!-- Restrictions -->
-      <key>allowSiri</key><false/>
-      <key>allowAppInstallation</key><true/>
-      <key>allowAutomaticAppDownloads</key><false/>
-      <key>allowAutomaticSoftwareUpdates</key><false/>
-      <key>allowAirDrop</key><false/>
-      <key>allowLocationServices</key><false/>
-      <key>allowHandoff</key><false/>
-    </dict>
-  </array>
-  <key>PayloadDescription</key>
-  <string>Power Save Restrictions Profile</string>
-  <key>PayloadDisplayName</key>
-  <string>Power Save Restrictions</string>
-  <key>PayloadIdentifier</key>
-  <string>com.example.powersaveprofile</string>
-  <key>PayloadOrganization</key>
-  <string>PowerSave Co.</string>
-  <key>PayloadRemovalDisallowed</key>
-  <false/>
-  <key>PayloadType</key>
-  <string>Configuration</string>
-  <key>PayloadUUID</key>
-  <string>22222222-3333-4444-5555-666666666666</string>
-  <key>PayloadVersion</key>
-  <integer>1</integer>
+    <key>PayloadDisplayName</key>
+    <string>Power Save & Stability</string>
+    <key>PayloadIdentifier</key>
+    <string>com.example.powersaveprofile</string>
+    <key>PayloadDescription</key>
+    <string>Giảm nóng, tiết kiệm pin, ổn định hiệu suất, không jailbreak, không MDM. Cài trên iPhone/iPad của bạn để thử!</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>11111111-2222-3333-4444-555555555555</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadOrganization</key>
+    <string>PowerSave Co.</string>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.applicationaccess</string>
+            <key>PayloadIdentifier</key>
+            <string>com.example.powersave.settings</string>
+            <key>PayloadUUID</key>
+            <string>22222222-3333-4444-5555-666666666666</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <!-- Hạn chế Siri -->
+            <key>allowSiri</key><false/>
+            <!-- Hạn chế tự động tải về ứng dụng -->
+            <key>allowAutomaticAppDownloads</key><false/>
+            <!-- Hạn chế tự động cập nhật phần mềm -->
+            <key>allowAutomaticSoftwareUpdates</key><false/>
+            <!-- Hạn chế Handoff -->
+            <key>allowHandoff</key><false/>
+            <!-- Hạn chế dịch vụ vị trí -->
+            <key>allowLocationServices</key><false/>
+            <!-- Hạn chế Airdrop -->
+            <key>allowAirDrop</key><false/>
+        </dict>
+    </array>
 </dict>
 </plist>
