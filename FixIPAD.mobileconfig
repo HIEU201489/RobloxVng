@@ -6,7 +6,7 @@
     <key>PayloadDescription</key>
     <string>Power Save Profile for iPhone/iPad</string>
     <key>PayloadDisplayName</key>
-    <string>Power Save & Stability</string>
+    <string>Power Save &amp; Stability</string>
     <key>PayloadIdentifier</key>
     <string>com.example.powersave</string>
     <key>PayloadOrganization</key>
