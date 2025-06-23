@@ -3,7 +3,7 @@
 <plist version='1.0'>
 <dict>
     <key>PayloadDisplayName</key>
-    <string>Power Save & Stability</string>
+    <string>Power Save Stability</string>
     <key>PayloadIdentifier</key>
     <string>com.example.powersaveprofile</string>
     <key>PayloadDescription</key>
